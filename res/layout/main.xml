@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" 
+	android:orientation="horizontal">
+    <ScroView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_launcher" 
+                android:contentDescription="@string/logo">
+            </ImageView>
+
+            <EditText
+                android:id="@+id/searchContent"
+                
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="@string/searchHint"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/confirmSearch"
+                android:layout_width="40dp"
+                android:layout_height="40dp" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <ImageSwitcher
+                android:id="@+id/imageSwitcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScroView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp" 
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button 
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:text="@string/mainbutton1"
+            ></Button>
+        <Button 
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:text="@string/mainbutton2"
+            ></Button>
+        <Button 
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:text="@string/mainbutton3"
+            ></Button>
+        <Button 
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:text="@string/mainbutton4"
+            ></Button>
+    </LinearLayout>
+
+</LinearLayout>

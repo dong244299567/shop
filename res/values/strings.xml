@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">"買真"</string>
+	<!--在第一个界面 -->
+	<string name="inputSearchName">"请输入查找的商品"</string>
+	<string name="searchHint">"输入商品名"</string>
+	<string name="logoDescript">"产品logo"</string>
+	<string name="logo">"这是商品的logo"</string>
+	<string name="mainbutton1">"首页"</string>
+	<string name="mainbutton2">"关注"</string>
+	<string name="mainbutton3">"推荐"</string>
+	<string name="mainbutton4">"我"</string>
+</resources>

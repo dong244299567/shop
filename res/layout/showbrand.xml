@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <!-- ViewFlipper是可以使用动画的控件，可以分页，这里因个人项目需要，把像素给定了 -->
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="853px"
+        android:layout_height="510px" >
+
+        <!-- 第一页 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/show1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/show1" />
+        </LinearLayout>
+
+        <!-- 第二页 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/show2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/show2" />
+        </LinearLayout>
+
+        <!-- 第三页 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/show3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/show3" />
+        </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>
